@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "mongoose": "npm:mongoose@8.0.1",
+    "@apollo/server": "npm:@apollo/server@^4.9.5",
+    "@apollo/server/standalone": "npm:@apollo/server@^4.9.5/standalone",
+    "graphql": "npm:graphql@^16.8.1"
+  },
+  "deploy": {
+    "project": "ee19afc2-979a-44b8-a05e-3c534feaa549",
+    "exclude": [],
+    "include": [],
+    "entrypoint": "main.ts"
+  }
+}
